@@ -1,0 +1,171 @@
+.canvas {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  width: 414px;
+  height: 181px;
+}
+
+/**** METAL GRADIENT ****/
+.metal {
+  background: linear-gradient(
+    #b3b2b29e 0%,
+    #cfcfcf 3%,
+    #c8c8c8 7%,
+    #7e7e7e 30%,
+    #707070 36%,
+    #777777c9 48%,
+    #f1eeee 60%,
+    #000000 68%,
+    #000000 74%,
+    #575757 78%,
+    #a8a7a7 86%,
+    #848484 88%,
+    #747474 98%,
+    #000000 100%
+  );
+}
+
+/**** MIDDLE-OF-BAR ****/
+.middle-of-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 153px;
+  height: 28px;
+}
+
+.grip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  width: 137px;
+  background: linear-gradient(#2525254e 2%, #6e6e6e2b 6%, #5e5e5e34 94%,#252525a5 98%);
+}
+
+.grip-groove {
+  height: 28px;
+  width: 40px;
+  opacity: 0.2;
+  background-image: linear-gradient(90deg, rgba(75, 75, 75, 0.645) 2%, transparent 98%),
+    radial-gradient(#0000008b 25%, transparent 25%),
+    radial-gradient(#0000008b 25%, transparent 25%);
+  background-position: 0px 0px, 2px 2px;
+  background-size: 4px 4px;
+  background-color: transparent;
+  filter: blur(0.5px);
+}
+
+.right-groove {
+  margin-left: auto;
+}
+
+/**** KNOTCH ****/
+.knotch {
+  height: 36px;
+  width: 5px;
+}
+
+/**** WEIGHTS ****/
+.weight {
+  background: linear-gradient(
+    #424242 3%,
+    #161616 10%,
+    #0c0c0c 20%,
+    #5d5d5d 32%,
+    #161616 65%,
+    #000000 80%,
+    #252525 91%,
+    #000000 100%
+  );
+  border-radius: 4px;
+  border: 5px solid black;
+  border-top: 0px solid black;
+  border-bottom: 0px solid black;
+}
+
+.big-weight {
+  height: 167px;
+  width: 49px;
+}
+
+.small-weight {
+  height: 146px;
+  width: 42px;
+}
+
+/**** BOLT ****/
+.bolt {
+  height: 34px;
+  width: 9px;
+}
+.bolt-hex {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    transparent 3%,
+    black 5%,
+    transparent 9%,
+    transparent 16%,
+    black 20%,
+    transparent 27%,
+    transparent 30%,
+    black 32%,
+    transparent 34%,
+    transparent 46%,
+    black 51%,
+    transparent 57%,
+    transparent 85%,
+    black 89%,
+    transparent 92%,
+    transparent 98%,
+    black 99%,
+    transparent 100%
+  );
+}
+
+/**** ENDS OF BAR ****/
+.end-of-bar {
+  height: 28px;
+  width: 16px;
+}
+
+.threads {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    81deg,
+    transparent 23%,
+    #121212 30%,
+    transparent 38%,
+    transparent 53%,
+    #121212 60%,
+    transparent 68%,
+    transparent 83%,
+    #121212 90%,
+    transparent 98%
+  );
+}
+.reverse {
+  transform: scaleX(-1);
+}
+
+.tip {
+  border-right: none;
+  background: linear-gradient(#dddddd 0%, #9b9b9b 55%, #5c5c5c 95%);
+  height: 26px;
+  width: 2px;
+}
+
+.left-end {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.right-end {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
