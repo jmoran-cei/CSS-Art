@@ -1,0 +1,374 @@
+.compare {
+  margin: 5px 2px;
+  padding: none;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.canvas {
+  position: relative;
+  z-index: -3;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  width: 718px;
+  height: 531px;
+  background: rgb(169 229 221);
+}
+
+
+
+/**** CONTAINS ENTIRE TV OBJECT ****/
+.tv-container {
+  margin-top: -7px;
+  width: 533px;
+  height: 438px;
+}
+
+.tv-body {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 533px;
+  height: 319px;
+  background: #755a44;
+}
+
+.tv-contents {
+  display: inline-block;
+  padding: 16px 12px 27px 33px;
+  width: 533px;
+  height: 320px;
+}
+
+.tv-body-bottom {
+  margin-top: -1px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 14px solid #423227;
+}
+
+.tv-shadow {
+  position: relative;
+  z-index: -2;
+  margin: -12px 15px;
+  border-radius: 10px;
+  width: 503px;
+  height: 15px;
+  background: #9bd3cb;
+}
+
+
+
+/**** ALL TV CONTENTS  ****/
+.top-slit {
+  margin-left: 1px;
+  width: 479px;
+  height: 4px;
+  background: #423227;
+}
+
+
+
+/*** SCREEN ***/
+.tv-screen-frame {
+  margin-top: 18.5px;
+  margin-left: 0.5px;
+  height: 254px;
+  width: 379px;
+  /* allow for slight curve of border */
+  border-radius: 2px;
+  contain: strict;
+}
+
+.frame-top {
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  border-top: 14px solid #3f3025;
+  width: 100%;
+}
+
+.frame-bottom {
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  border-bottom: 14px solid #9b775b;
+  width: 100%;
+}
+
+.frame-left {
+  margin-top: -255px;
+  border-top: 13px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 14px solid #4f3c2e;
+  height: 255px;
+}
+
+.frame-right {
+  margin-top: -255px;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-right: 14px solid #4f3c2e;
+  height: 255px;
+}
+
+.screen {
+  margin-left: 13px;
+  padding-top: 12px;
+  padding-left: 13.5px;
+  width: 353px;
+  height: 227px;
+  background: #383036;
+}
+
+.image-display {
+  border-radius: 29px;
+  height: 206px;
+  width: 326.5px;
+  background-image: url("tv-screen-color-bars.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/*** CHANNEL/VOLUME KNOBS & SPEAKER SLITS ***/
+.knobs-and-speakers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -272px;
+  float: right;
+  width: 108px;
+  height: 273px;
+}
+
+.flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/** BIG KNOB **/
+.big-knob {
+  margin-top: 8.5px;
+  margin-right: 2px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background: #595653;
+  box-shadow: 11px 11px #67513f;
+}
+
+.knotches-container {
+  width: 70px;
+  height: 70px;
+}
+
+.rest-of-knob-container {
+  float: top;
+  margin-top: -70px;
+}
+
+.big-knob-knotches-half {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background: conic-gradient(
+    #7a7671 1deg,
+    transparent 1deg,
+    transparent 15deg,
+    #7a7671 15deg,
+    #7a7671 19deg,
+    transparent 19deg,
+    transparent 33deg,
+    #7a7671 33deg,
+    #7a7671 37deg,
+    transparent 37deg,
+    transparent 51deg,
+    #7a7671 51deg,
+    #7a7671 55deg,
+    transparent 55deg,
+    transparent 69deg,
+    #7a7671 69deg,
+    #7a7671 73deg,
+    transparent 73deg,
+    transparent 89deg,
+    #7a7671 89deg,
+    #7a7671 92deg,
+    transparent 92deg,
+    transparent 108deg,
+    #7a7671 108deg,
+    #7a7671 112deg,
+    transparent 112deg,
+    transparent 124deg,
+    #7a7671 124deg,
+    #7a7671 128deg,
+    transparent 128deg,
+    transparent 142deg,
+    #7a7671 142deg,
+    #7a7671 146deg,
+    transparent 146deg,
+    transparent 160deg,
+    #7a7671 160deg,
+    #7a7671 164deg,
+    transparent 164deg,
+    transparent 178deg,
+    #7a7671 178deg,
+    #7a7671 182deg,
+    transparent 182deg,
+    transparent 358deg,
+    #7a7671 358deg
+  );
+}
+
+.big-knob-inner-circle {
+  margin-right: 1px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: #2b2b2b;
+  box-shadow: 0 0 0 4.5px #595653;
+}
+
+.big-knob-piece {
+  border-radius: 2px;
+  height: 9.5px;
+  width: 25px;
+  background: #7a7671;
+}
+
+
+
+/** BIG KNOB **/
+.small-knob {
+  margin-top: 11.5px;
+  margin-left: 12px;
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+  background: #423227;
+  box-shadow: 5px 5px #67513f;
+}
+
+.small-knob-piece {
+  border-radius: 2px;
+  height: 10px;
+  width: 32px;
+  background: #7a7671;
+  transform: rotate(-45deg);
+}
+
+
+
+/** SPEAKER SLITS **/
+.speaker-slits {
+  margin-top: auto;
+  margin-left: auto;
+  width: 101px;
+  height: 120.5px;
+  background-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    transparent 60%,
+    #423227 61%,
+    #423227 100%
+  );
+  background-size: 10px 120.5px;
+}
+
+
+
+/** TV LEGS **/
+.front-legs {
+  margin-top: -102.5px;
+  padding-left: 53.5px;
+  width: 481px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-legs {
+  position: relative;
+  z-index: -1;
+  margin-top: -5px;
+  padding-left: 80px;
+  width: 455px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 41px;
+  height: 107px;
+}
+
+.front-leg-shadow {
+  width: 41px;
+  border-top: 15px solid #5e4737; 
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+.back-leg-shadow {
+  width: 41px;
+  border-top: 15px solid #544031; 
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+.front-leg {
+  width: 37px;
+  border-top: 87.5px solid #755a44; 
+  border-left: 11px solid transparent;
+  border-right: 12px solid transparent;
+}
+
+.back-leg {
+  width: 37px;
+  border-top: 87.5px solid #6b523f; 
+  border-left: 11px solid transparent;
+  border-right: 12px solid transparent;
+}
+
+.front-foot {
+  margin-right: 2px;
+  width: 14px;
+  border-top: 6px solid #4f3c2e; 
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+
+.back-foot {
+  width: 14px;
+  border-top: 6px solid #423227; 
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+
+
+
+/** EXTRAS **/
+.blur {
+  /* helps soften shapes */
+  filter: blur(0.03rem);
+}
+
+.reverse {
+  transform: scaleX(-1);
+}
+
+.push-left {
+  margin-left: -1.5px;
+}
+

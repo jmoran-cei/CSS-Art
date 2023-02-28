@@ -1,0 +1,118 @@
+<html lang="en">
+
+<head>
+    <title>Retro TV - CSS Art</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="retro-tv.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+</head>
+
+<body style="margin: 30px;">
+    <h1>Retro TV - CSS Art</h1>
+    <!-- original image -->
+    <div class="compare">
+        <h3>Original Image</h3>
+        <img src="retro-tv.png" />
+    </div>
+
+    <div class="compare css-version">
+        <h3>CSS Image</h3>
+
+        <!-- css version -->
+        <div class="canvas">
+            <div class="tv-container">
+                <!-- tv -->
+                <div class="tv-body blur">
+                    <div class="tv-contents">
+
+                        <!-- top slit -->
+                        <div class="top-slit"></div>
+
+                        <!-- tv screen -->
+                        <div class="tv-screen-frame">
+                            <div class="frame-top"></div>
+                            <div class="screen">
+                                <div class="image-display">
+                                    <div class="image"></div>
+                                </div>
+                            </div>
+                            <div class="frame-bottom"></div>
+                            <div class="frame-left"></div>
+                            <div class="frame-right"></div>
+                        </div>
+
+                        <!-- knobs & speakers -->
+                        <div class="knobs-and-speakers-container">
+
+                            <!-- big knob -->
+                            <div class="big-knob flex-centered">
+                                <div class="knotches-container">
+                                    <div class="big-knob-knotches-half  flex-centered"></div>
+                                    <!-- center knotches -->
+                                    <div class="rest-of-knob-container flex-centered">
+                                        <div class="big-knob-knotches-half  reverse flex-centered">
+                                            <!-- center knob piece -->
+                                            <div class="big-knob-inner-circle flex-centered">
+                                                <div class="big-knob-piece"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- small knob -->
+                            <div class="small-knob flex-centered">
+                                <div class="small-knob-piece"></div>
+                            </div>
+
+                            <!-- speaker slits -->
+                            <div class="speaker-slits"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- bottom of tv -->
+                <div class="tv-body-bottom"></div>
+
+                <!-- tv legs -->
+                <!-- back legs-->
+                <div class="back-legs blur">
+                    <!-- back left -->
+                    <div class="leg-container">
+                        <div class="back-leg-shadow"></div>
+                        <div class="back-leg"></div>
+                        <div class="back-foot push-left"></div>
+                    </div>
+                    <!-- back right -->
+                    <div class="leg-container">
+                        <div class="back-leg-shadow"></div>
+                        <div class="back-leg"></div>
+                        <div class="back-foot push-left"></div>
+                    </div>
+                </div>
+
+                <!-- front legs -->
+                <div class="front-legs blur">
+                    <!-- front left -->
+                    <div class="leg-container">
+                        <div class="front-leg-shadow"></div>
+                        <div class="front-leg"></div>
+                        <div class="front-foot"></div>
+                    </div>
+                    <!-- front right -->
+                    <div class="leg-container">
+                        <div class="front-leg-shadow"></div>
+                        <div class="front-leg"></div>
+                        <div class="front-foot"></div>
+                    </div>
+                </div>
+
+                <!-- tv floor shadow -->
+                <div class="tv-shadow"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
