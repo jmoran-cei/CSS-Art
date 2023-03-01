@@ -1,0 +1,139 @@
+/**** -- FOR DISPLAY -- ****/
+body {
+  margin: 40px;
+}
+
+.compare {
+  margin: 5px 20px;
+  padding: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.canvas {
+  position: relative;
+  width: 388px;
+  height: 352px;
+}
+
+img {
+  width: 388;
+}
+
+/**** -- SHAPES -- ****/
+
+/** "BEAN" LIKE SHAPES **/
+.bean-shape {
+  position: relative;
+  width: 322px;
+  height: 239px;
+}
+
+.bean-shape::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 123px;
+  border: 24.5px solid transparent;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+
+  /* mask --> keep only the border */
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+
+.top-bean::before {
+  z-index: 1;
+  background: conic-gradient(
+      from 3.1416rad at 65% 50%,
+      #ff6f02 0deg,
+      #ff0101 90deg,
+      #ff3f00 115deg,
+      #ff9000 140deg,
+      #ffb300 185deg,
+      #ff9001 220deg,
+      #ff9000 320deg,
+      #ff9201 345deg,
+      #ff6f02 359deg
+    )
+    border-box;
+}
+
+.bottom-bean::before {
+  margin-top: -126px;
+  margin-bottom: 126px;
+  background: conic-gradient(
+      from 3.1416rad at 65% 50%,
+      #ffaa00 0deg,
+      #ffb701 25deg,
+      #664241 68deg,
+      #0b0975 100deg,
+      #dc1b16 147deg,
+      #dc1b16 180deg,
+      #ec4f0c 220deg,
+      #ff9000 320deg,
+      #ffaa00 359deg
+    )
+    border-box;
+}
+
+
+
+/** HALF CIRCLE **/
+.half-circle {
+  margin-left: auto;
+  position: relative;
+  width: 138px;
+  height: 137px;
+}
+
+.half-circle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 123px;
+  border: 24.5px solid transparent;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  /* mask --> keep only the border */
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  /* cut shape to only be half circle */
+  clip-path: inset(0 0 0 50%);
+}
+
+.top-half-circle::before {
+  margin-top: -478.5px;
+  margin-bottom: 477.5px;
+  background: conic-gradient(
+      #ff9001 0deg,
+      #ff9000 90deg,
+      #ec4f0c 180deg,
+      #ee510b 270deg,
+      #ff9001 359deg
+    )
+    border-box;
+}
+
+.bottom-half-circle::before {
+  margin-top: -400.5px;
+  margin-bottom: 400px;
+  background: conic-gradient(
+      #ff9000 0deg,
+      #ff9000 90deg,
+      #ff8e01 180deg,
+      #ee510b 270deg,
+      #ff9000 359deg
+    )
+    border-box;
+}
