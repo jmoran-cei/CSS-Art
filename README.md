@@ -2,8 +2,8 @@
 This repository is my portfolio of recreating images through CSS and HTML. Each folder is a different image and recreation. 
 
 Table of Contents:
-- [Dumbbell](https://github.com/jmoran-cei/CSS-Art/edit/main/README.md#dumbbell)
-- [Retro TV](https://github.com/jmoran-cei/CSS-Art/edit/main/README.md#retro-tv)
+- [Dumbbell](https://github.com/jmoran-cei/CSS-Art#dumbbell)
+- [Retro TV](https://github.com/jmoran-cei/CSS-Art#retro-tv)
 
 
 ### DUMBBELL  
