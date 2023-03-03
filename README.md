@@ -4,6 +4,7 @@ This repository is my portfolio of recreating images through CSS and HTML. Each 
 Table of Contents:
 - [Dumbbell](https://github.com/jmoran-cei/CSS-Art#dumbbell)
 - [Retro TV](https://github.com/jmoran-cei/CSS-Art#retro-tv)
+- [CEI Logo](https://github.com/jmoran-cei/CSS-Art#cei-logo)
 
 
 ### DUMBBELL  
@@ -11,3 +12,6 @@ Table of Contents:
 
 ### RETRO TV  
 ![retro tv comparison](/retro-tv/retro-tv-final-product.JPG)  
+
+### CEI LOGO  
+![cei logo comparison](/cei-logo/cei-logo-final-product.jpg)  
