@@ -52,15 +52,16 @@ img {
   z-index: 1;
   background: conic-gradient(
       from 3.1416rad at 65% 50%,
-      #ff6f02 0deg,
+      #fe7b00 0deg,
+      /* #fe5b00 5deg, */
       #ff0101 90deg,
       #ff3f00 115deg,
       #ff9000 140deg,
-      #ffb300 185deg,
+      #ff9700 185deg,
       #ff9001 220deg,
       #ff9000 320deg,
-      #ff9201 345deg,
-      #ff6f02 359deg
+      /* #ff9b00 335deg, */
+      #fe7b00 359deg
     )
     border-box;
 }
@@ -70,15 +71,16 @@ img {
   margin-bottom: 126px;
   background: conic-gradient(
       from 3.1416rad at 65% 50%,
-      #ffaa00 0deg,
-      #ffb701 25deg,
-      #664241 68deg,
+      #ff9b00 0deg,
+      #ff9b00 25deg,
+      #cc7116 55deg,
+      #664241 78deg,
       #0b0975 100deg,
       #dc1b16 147deg,
       #dc1b16 180deg,
       #ec4f0c 220deg,
       #ff9000 320deg,
-      #ffaa00 359deg
+      #ff9b00 359deg
     )
     border-box;
 }
@@ -113,8 +115,8 @@ img {
 }
 
 .top-half-circle::before {
-  margin-top: -478.5px;
-  margin-bottom: 477.5px;
+  margin-top: -478px;
+  margin-bottom: 478px;
   background: conic-gradient(
       #ff9001 0deg,
       #ff9000 90deg,
