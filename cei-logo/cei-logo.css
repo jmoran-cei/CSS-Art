@@ -53,14 +53,12 @@ img {
   background: conic-gradient(
       from 3.1416rad at 65% 50%,
       #fe7b00 0deg,
-      /* #fe5b00 5deg, */
       #ff0101 90deg,
       #ff3f00 115deg,
       #ff9000 140deg,
       #ff9700 185deg,
       #ff9001 220deg,
       #ff9000 320deg,
-      /* #ff9b00 335deg, */
       #fe7b00 359deg
     )
     border-box;
