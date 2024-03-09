@@ -1,0 +1,172 @@
+/**** -- FOR DISPLAY -- ****/
+body {
+  margin: 40px;
+}
+
+.compare {
+  margin: 5px 20px;
+  padding: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.canvas {
+  position: relative;
+  width: 388px;
+}
+
+img {
+  width: 388px;
+}
+
+/**** -- FULL CALCULATOR -- ****/
+.calculator {
+  width: 388px;
+  height: 506.02px;
+  background-color: rgb(37, 36, 34);
+}
+
+/**** -- SCREEN -- ****/
+.screen {
+  width: 388px;
+  height: 107px;
+  background-image: linear-gradient(
+    rgb(227, 229, 210) 0%,
+    rgb(222, 224, 200) 49%,
+    rgb(212, 216, 187) 50%,
+    rgb(222, 224, 200) 75%,
+    rgb(227, 229, 210) 100%
+  );
+}
+
+.screen-text {
+  text-align: right;
+  margin-right: 22px; /* adjusted for transformx */
+
+  font-family: sans-serif;
+  line-height: 107px;
+  font-size: 93px;
+  transform: scaleX(105%); /* for making font a tad wider to match image */
+  background: linear-gradient(
+    rgb(127, 127, 127) 0%,
+    rgb(48, 47, 47) 49%,
+    rgb(0, 0, 0) 50%,
+    rgb(0, 0, 0) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/**** -- KEYPAD -- ****/
+.keypad {
+  width: 388px;
+  height: 399.02px;
+  padding: 0 14px;
+}
+
+.keypad-grid-1x4 {
+  display: grid;
+  grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+  grid-column-gap: 14px;
+  grid-row-gap: 16px;
+  margin-top: 17px;
+}
+
+.keypad-grid-2x4 {
+  display: grid;
+  grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+  grid-column-gap: 14px;
+  grid-row-gap: 16px;
+  margin-top: 17px;
+}
+
+/**** -- KEYS -- ****/
+.regular-key {
+  height: 48px;
+  width: 79.5px;
+
+  border-radius: 5px;
+  border-top: 2px solid rgb(235, 236, 236);
+  overflow: hidden;
+  box-shadow: 0px 0px 0.75px 0.75px rgb(0 0 0);
+}
+
+#equals-key {
+  height: 112px;
+  grid-column: 4 / 5;
+  grid-row: 1 / 3;
+}
+
+#zero-key {
+  width: 173px;
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  line-height: 0px;
+}
+
+.gray-key {
+  background: rgb(79, 85, 89);
+}
+
+.brown-key {
+  background: rgb(91, 73, 63);
+}
+
+.black-key {
+  background: rgb(0, 0, 0);
+}
+
+.orange-key {
+  background: rgb(228, 110, 11);
+}
+
+
+/**** -- KEY TEXT -- ****/
+.key-text {
+  line-height: 46px;
+
+  font-size: 26px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.08rem;
+}
+
+#equals-key-text {
+  line-height: 117px;
+}
+
+/**** -- BUTTON EMBOSS EFFECTS -- ****/
+.emboss-effect {
+  margin-top: -49px;
+  margin-left: -10px;
+  width: 123%;
+  height: 25.56px;
+
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background: linear-gradient(
+    rgb(255, 255, 255) 0%,
+    rgb(228, 230, 232, 0.75) 10%,
+    rgba(171, 176, 178, 0.2)
+  );
+  -webkit-background-clip: padding-box; 
+  background-clip: padding-box; 
+}
+
+.equals-emboss-effect {
+  margin-top: -121px;
+  margin-left: -10px;
+  width: 131%;
+  height: 25.56px;
+
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background: linear-gradient(
+    rgb(255, 255, 255) 0%,
+    rgb(228, 230, 232, 0.75) 10%,
+    rgba(201, 207, 210, 0.31)
+  );
+  -webkit-background-clip: padding-box; 
+  background-clip: padding-box; 
+}
