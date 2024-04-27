@@ -136,6 +136,11 @@ img {
   line-height: 117px;
 }
 
+.reduce-text-size {
+  transform: scale(0.87)
+
+}
+
 /**** -- BUTTON EMBOSS EFFECTS -- ****/
 .emboss-effect {
   margin-top: -49px;
