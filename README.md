@@ -5,6 +5,7 @@ Table of Contents:
 - [Dumbbell](https://github.com/jmoran-cei/CSS-Art#dumbbell)
 - [Retro TV](https://github.com/jmoran-cei/CSS-Art#retro-tv)
 - [CEI Logo](https://github.com/jmoran-cei/CSS-Art#cei-logo)
+- [Digital Calculator](https://github.com/jmoran-cei/CSS-Art#digital-calculator)
 
 
 ### DUMBBELL  
@@ -15,3 +16,6 @@ Table of Contents:
 
 ### CEI LOGO  
 ![cei logo comparison](/cei-logo/cei-logo-final-product.jpg)  
+
+### DIGITAL CALCULATOR
+![calculator comparison](/calculator/calculator-final-product.JPG)  
